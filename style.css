@@ -1,0 +1,8 @@
+.child-box2 {
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+}
+.button  {
+    cursor: pointer;
+    background-color:hsl(154, 59%, 51%) ;
+  }
