@@ -83,4 +83,37 @@ input {
   .thankyou{
     color: hsl(246, 25%, 77%);
   }
- 
+  .error-message,
+  .error-message-lastName {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .input-firstName,
+  .input-lastName ,
+  .input-password ,
+  .input-email {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .input-firstName.error,
+  .input-lastName.error {
+    border-color: red;
+  }
+  @media (max-width: 768px) { /* Target screens up to 768px wide (typical mobile width) */
+    .parent-box {
+      flex-direction: column; /* Stack elements vertically */
+    }
+  
+    .child-box1 {
+      width: 100%; /* Expand to full width on mobile */
+    }
+  
+    .child-box2 {
+      width: 100%; /* Expand to full width on mobile */
+    }
+  }
