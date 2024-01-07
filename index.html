@@ -6,7 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  
   <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:wght@700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -19,7 +24,7 @@
   <div class="parent-box">
     <div class="child-box1">
       <div class="title">
-  Learn to code by watching others
+ <h3> Learn to code by watching others</h3>
       </div>
  <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
   but understanding how developers think is invaluable. </p>
@@ -28,25 +33,36 @@
       <div class="grandchild">
   Try it free 7 days then $20/mo. thereafter
       </div>
+      <div class="child-box3">
+      <form> 
+        <div class="form-feilds"></div>
+
       <div class="great-grandchild1">
-  First Name 
+        <input class="input-firstName" type="text" placeholder="firstName" />  
+  
       </div>
       <div class="great-grandchild2">
-  Last Name 
+        <input class="input-lastName" type="text" placeholder="lastName" />
+  
       </div>
       <div class="great-grandchild3">
-  Email Address
+        <input class="input-email" type="email" placeholder="email" />
+  
       </div>
       <div class="great-grandchild4">
-  Password
+
+  <input class="input-password" type="password" placeholder="password" />
       </div>
       <div class="button">
         <button class="my-button">
+          
   Claim your free trial 
         </button>
 </div>
+<div class="thankyou">
   By clicking the button, you are agreeing to our Terms and Services
-  
+</div>
+  </form>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -55,6 +71,9 @@
   </footer>
   </div>
   </div>
+  </div>
+  </div>
   </main>
 </body>
+<script type="text/javascript" src="./app.js"></script>
 </html>

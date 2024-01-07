@@ -1,8 +1,86 @@
-.child-box2 {
+
+
+
+.parent-box{
   background-color: hsl(0, 100%, 74%);
   color: white;
+  display: flex;
+  padding: 200px;
+  font-family: 'Poppins', sans-serif;
 }
-.button  {
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+
+}
+.child-box1 {
+  width: 50%;
+}
+
+.child-box2 {
+  width: 50%; 
+}
+
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.child-box3{
+  background-color:whitesmoke ;
+  text-align: center;
+  margin-top: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
+}
+.grandchild {
+  background-color: hsl(248, 32%, 49%) ;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: white;
+  height: 50px;
+  width: 350px;
+  align-content:space-around;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+input {
+  width: 50%;
+}
+.great-grandchild1{
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.great-grandchild2{
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.great-grandchild3{
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.great-grandchild4{
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.my-button{
     cursor: pointer;
     background-color:hsl(154, 59%, 51%) ;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
   }
+  
+  .thankyou{
+    color: hsl(246, 25%, 77%);
+  }
+ 
