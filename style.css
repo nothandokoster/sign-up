@@ -42,9 +42,9 @@ p{
   margin-bottom: 20px;
   border-radius: 15px;
   color: white;
-  height: 50px;
+  height: 45px;
   width: 350px;
-  align-content:space-around;
+  text-align: center;
 }
 form {
   display: flex;
