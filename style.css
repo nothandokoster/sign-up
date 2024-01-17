@@ -40,11 +40,12 @@ p{
 .grandchild {
   background-color: hsl(248, 32%, 49%) ;
   margin-bottom: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   color: white;
   height: 45px;
   width: 350px;
-  text-align: center;
+  justify-content:flex-start;
+  
 }
 form {
   display: flex;
@@ -78,33 +79,17 @@ input {
     margin-top: 20px;
     border-radius: 5px;
     margin-bottom: 15px;
+    margin-left: 80px;
   }
   
   .thankyou{
     color: hsl(246, 25%, 77%);
   }
-  .error-message,
-  .error-message-lastName {
+  
+  
+  .error{
     color: red;
-    font-size: 12px;
-    margin-top: 5px;
-  }
-  
-  .input-firstName,
-  .input-lastName ,
-  .input-password ,
-  .input-email {
-    border: 1px solid gray;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-  }
-  
-  .input-firstName.error,
-  .input-lastName.error,
-  .input-email.error,
-  .input-password.error {
-    border-color: red;
+    
   }
   @media (max-width: 768px) { /* Target screens up to 768px wide (typical mobile width) */
     .parent-box {

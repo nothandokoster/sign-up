@@ -36,7 +36,7 @@ const validateInputs = () => {
   const passwordValue = password.value.trim();
 
   if (firstNameValue === '') {
-    setError(firstName, 'FIRST NAME IS REQURED');
+    setError(firstName, 'First Name Cannot Be Empty');
   
   } else {
     setSuccess(firstName);
