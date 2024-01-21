@@ -29,42 +29,54 @@ p{
 }
 .child-box3{
   background-color:whitesmoke ;
-  text-align: center;
-  margin-top: 15px;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
+  margin-top: 1em;
+  padding: 2em;
+  border-radius: 10px;
+ 
 
 }
-.grandchild {
+.grandchild h3 {
   background-color: hsl(248, 32%, 49%) ;
-  margin-bottom: 20px;
-  border-radius: 10px;
+ font-size: 1em;
+ font-weight: 400;
   color: white;
+  border-radius: 10px;
+  padding: 1em 3em;
   
-  padding: 12em 3em;
-  
+}span{
+  font-weight: 600;
+  color: white;
 }
 form {
   display: flex;
   flex-direction: column;
-  
-}
-.form-fiels-control input {
-  border: 2px;
-  border-radius: 4px;
-  display: block;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 10px;
-  font-size: small;
-}
-.form-fields-control i{
-  position:absolute;
-  top: 40p;
-  right: 10px;
+  gap: 1em;
   
+}
+input{
+  width:100% ;
+  padding: 1em;
+  border-radius: 5px;
+ color: grey;
+ font-weight: 700;
+ position: relative;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+.msg{
+  color: red;
+}
+.form-fields{
+  width: 10%;
+}
+#submit-btn .msg{
+  color: red;
+}
+/*.msg,
+.icon-error{
+  display: none;
 }
 .great-grandchild1{
   border-radius: 10px;
@@ -83,20 +95,34 @@ form {
 .great-grandchild4{
   border-radius: 10px;
   margin-bottom: 15px;
-}
-.my-button{
+}*/
+#submit-btn{
     cursor: pointer;
     background-color:hsl(154, 59%, 51%) ;
-    margin-top: 20px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-left: 80px;
+    border: none;
+    color: white;
+    padding: 1em 0em ;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+ 
   }
-  form .fa{
-    display: flex;
-    right: 10px;
-    margin-top: -20px;
+  p{
+    color: hsl(246, 25%, 77%);
+    font-size: 0.8em;
+    padding: 1em 1em 0;
   }
+  p a{
+color: hsl(0, 100%, 74%);
+text-decoration: none;
+font-weight: 700;
+  }
+
+ .icon-error{
+  position: absolute;
+  margin: 0.8em 0em 0em -5em;
+  
+ }
   
   .thankyou{
     color: hsl(246, 25%, 77%);
