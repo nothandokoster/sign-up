@@ -2,6 +2,7 @@
 
 
 .parent-box{
+  background-image: url(./images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
   color: white;
   display: flex;
@@ -42,9 +43,8 @@ p{
   margin-bottom: 20px;
   border-radius: 10px;
   color: white;
-  height: 45px;
-  width: 350px;
-  justify-content:flex-start;
+  
+  padding: 12em 3em;
   
 }
 form {
@@ -52,8 +52,19 @@ form {
   flex-direction: column;
   
 }
-input {
-  width: 50%;
+.form-fiels-control input {
+  border: 2px;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: small;
+}
+.form-fields-control i{
+  position:absolute;
+  top: 40p;
+  right: 10px;
+  
 }
 .great-grandchild1{
   border-radius: 10px;
